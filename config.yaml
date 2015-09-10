@@ -1,0 +1,14 @@
+test:
+  amihere: yep
+default:
+  logmessages: true
+  smtp: mailgun
+  fromname: Mark Hayden
+  fromemail: imanemail@email.com
+  token: 14l2kh4g2erhg2345yh2
+template:
+  path: tmpl/
+mailgun:
+ secret: mailgun-secret-key
+ public: mailgun-public-key
+ domain: mailgun-domain
